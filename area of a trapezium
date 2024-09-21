@@ -1,0 +1,28 @@
+//program to calculate area of a trapezium
+#include <stdio.h>
+int main(){
+    
+    //measurements initialization
+    int a;
+    int b;
+    int height;
+    float area;
+    
+    //enter variable a;
+    printf("\n Enter variable a",a);
+    scanf("%d",&a);
+    
+    //enter variable b
+    printf("\n Enter variable b",b);
+    scanf("%d",&b);
+    
+    //enter the height
+    printf("\n Enter the height",height);
+    scanf("%d",&height);
+    
+    //calculating the area
+    area=(0.5)*(a+b)*height;
+    printf("\n The area is:%f cm^2",area);
+    
+    return(0);
+}
