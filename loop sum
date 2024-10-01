@@ -1,0 +1,13 @@
+//PROGRAM TO WRITE NUMBERS 1 TO 10
+#include <stdio.h>
+int main(){
+//for(start;stop;end)
+int i,sum;
+for(i=10;i>0;i--){
+    printf("\n %d",i);
+    sum=sum+i;
+
+}
+printf("sum is:%d",sum);
+    return 0;
+}
